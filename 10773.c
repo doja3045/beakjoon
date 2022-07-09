@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 int main(void){
+   printf("hello world!");
+   /*
     int a,b;
     scanf("%d",&a);
     int *p = (int*)malloc(sizeof(int) * a);
@@ -19,4 +21,5 @@ int main(void){
         b = b + p[i];
     }
     printf("%d",b);
+    */
 }
